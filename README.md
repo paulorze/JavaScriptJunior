@@ -1,0 +1,3 @@
+Buenas, buenas. Este repositorio lo creé con las soluciones que fui pensando para las actividades propuestas en el curso de JavaScript de Lucas Dalto (Nivel Junior).
+Van a poder entrar a diferentes páginas que corresponden a cada uno de los problemas y ver cómo funciona el JavaScript para lograr esa solución.
+Quiero agradecer a Dalto por ofrecer esta invaluable información y formación de manera gratuita y pública. Me divertí mucho haciendo el curso ^-^

@@ -1,0 +1,69 @@
+@use './vars';
+
+.cap6prob1 {
+    .llaves__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .llave {
+        margin: 1rem;
+        height: 24rem;
+        width: 20rem;
+        padding: 1rem;
+        border: 1px solid vars.$color-acento;
+        border-radius: 0.25rem;
+        background-color: vars.$color-terciario;
+
+        &__top {
+            height: 17rem;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+
+            &__contenedor {
+                width: 8rem;
+                height: 8rem;
+                border-radius: 0.25rem;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+        }
+
+        &__nombre {
+            text-align: center;
+            color: vars.$color-principal;
+        }
+
+        &:hover, &:focus {
+            box-shadow: 0 0 25px vars.$color-acento;
+        }
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+
+        input {
+            background-color: vars.$color-secundario;
+            color: vars.$color-principal;
+            border: none;
+            border-radius: 0.25rem;
+            font-size: 4rem;
+            padding: 2rem;
+        }
+    }
+}

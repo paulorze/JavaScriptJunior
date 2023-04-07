@@ -1,0 +1,42 @@
+@use './vars';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: vars.$fuente;
+    font-size: 2rem;
+    background-color: vars.$color-principal;
+    color: vars.$color-secundario;
+}
+
+header {
+    background-color: vars.$color-secundario;
+    width: 100%;
+
+    h1 {
+        color: vars.$color-principal;
+        padding: 1rem;
+        font-size: 5rem;
+    }
+}
+
+section {
+    padding: 2rem;
+    text-indent: 2rem;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+}

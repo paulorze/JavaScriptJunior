@@ -1,0 +1,31 @@
+@use './vars';
+
+.index__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    table {
+        width: 90%;
+        border: 1px solid vars.$color-acento;
+
+        th {
+            background-color: vars.$color-secundario;
+            color: vars.$color-principal;
+        }
+
+        td {
+            a {
+                color: vars.$color-secundario;
+            }
+        }
+
+        tr:nth-child(odd) {
+            background-color: vars.$color-terciario;
+            a {
+                color: vars.$color-principal;
+            }
+        }
+    }
+}
